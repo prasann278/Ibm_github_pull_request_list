@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+To clone my project of github for github_pull_requests_list use this link 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- https://github.com/prasann278/Ibm_github_pull_request_list.git
 
-## Available Scripts
+Steps to clone my project
+  - Open Your Command Line or Terminal
+  - Navigate to the Directory Where You Want to Clone the Repository - use cd to change directory
+  - Clone the Repository using link -https://github.com/prasann278/Ibm_github_pull_request_list.git 
+    use command git clone https://github.com/username/repo.git
+  - Wait for the Clone to Complete
+  - cd repo Ibm_github_pull_request_list and npm install it will download all the dependency.
+   
+and after that 
 
-In the project directory, you can run:
+Steps to run react project
+- Navigate to Your Project Directory - cd projectName
+- Install Dependencies by using - cd npm install - it will download all the dependency which is listed in package.json file.
+- Once it will complete will run on the browser tab - if in case it is not poping up just type - http://localhost:3000
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Then i will open the page with a heading "Github's Pull Requests Viewer"
+- There is a input box and button to fetch the pull request
+- In the input box you can type "facebook/react" and click fetch button
+- This will give you list of pull_requests from that particular owner and repo eg. Owner facebook and repo is react - facebook/react
+- Cards will populate below which will give information of
+    - Pull Request.
+    - Author.
+    - Commets.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+It is limited to fetching details from public repositories due to security reasons and you do not want to use authentication with a bearer token,
+certainly work with public GitHub repositories without authentication.
 
-### `npm test`
+if the owner and repo does not exsits it will give an error and shows the error message with erroe code.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thank you.
