@@ -1,0 +1,65 @@
+
+
+/* Page container */
+.page {
+    margin: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+.title{
+  text-align: center;
+}
+  /* Header styles */
+  .page h1 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+/* Input and button styles */
+  .input_Container {
+    margin: 10px 27px;
+  }
+  
+  .input_Container input {
+    padding: 10px;
+   margin: 0px 10px 0px 10px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+  }
+  
+  .input_Container button {
+    background-color: #0077b5;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  /* Error message styles */
+  .error {
+    color: red;
+    margin-top: 10px;
+  }
+  
+   /* Card message styles */
+.card {
+  background-color: #fff;
+  border: 1px solid #e1e1e1;
+  border-radius: 5px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+  padding: 17px;
+  margin: 20px 35px 0px;
+  width: 44%;
+  display: inline-block;
+}
+
+.card h2 {
+  font-size: 20px;
+  color: #333;
+}
+
+.card p {
+  font-size: 16px;
+  color: #666;
+}
